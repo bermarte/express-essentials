@@ -1,31 +1,5 @@
 {
-  "name": "express_essentials",
-  "type": "module",
-  "version": "1.0.0",
-  "description": "simple exercise to set up an express project",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon --experimental-json-modules --exec babel-node index.js",
-    "debug": "DEBUG=express:* nodemon --experimental-json-modules --exec babel-node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "@later"
-  },
-  "keywords": [
-    "express",
-    "beginner"
-  ],
-  "author": "tutorial from Linkedin",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "nodemon": "^2.0.22"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.22.6",
-    "@babel/core": "^7.22.6",
-    "@babel/node": "^7.22.6",
-    "@babel/preset-env": "^7.22.6"
+    "express-generator": "^4.16.1"
   }
 }

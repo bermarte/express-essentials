@@ -77,7 +77,6 @@ run the app:
 app
   .route("/class")
   .get((request, response) => {
-    // response.send("Retrieve class info");
     throw new Error();
   })
   .post((request, response) => {
